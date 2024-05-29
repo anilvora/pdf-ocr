@@ -1,0 +1,665 @@
+﻿@page
+@model Practice.WebApp.Pages.PDFViewModel
+@{
+	ViewData["Title"] = "PDF View";
+}
+
+<h3>@ViewData["Title"]</h3>
+
+<style type="text/css">
+	body {
+		font-family: Arial;
+		font-size: 10pt;
+	}
+
+	table {
+		border: 1px solid #ccc;
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+		table th {
+			background-color: #F7F7F7;
+			color: #333;
+			font-weight: bold;
+		}
+
+		table th, table td {
+			padding: 5px;
+			border: 1px solid #ccc;
+		}
+
+
+	#divPDFObject {
+		width: 815px;
+		height: 680px;
+	}
+
+</style>
+
+@*<form method="post" enctype="multipart/form-data">
+	@Html.AntiForgeryToken()
+	<div class="row">
+		<div class="col-md-12">
+			<label>Select File for Generaet PDF:</label>
+			<input type="file" id="btnFileUpload" name="formFile">
+			<input type="submit" value="Convert to PDF" id="btnConvertToPdf" asp-page-handler="UploadPDFForView" />
+		</div>
+	</div>
+</form>*@
+
+
+
+<div class="accordion" id="accordionExample">
+	<div class="accordion-item">
+		<h2 class="accordion-header" id="headingOne">
+			<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				PDF Listing Tables
+			</button>
+		</h2>
+		<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+				<form method="post" enctype="multipart/form-data">
+					@Html.AntiForgeryToken()
+					<div class="row">
+						<div class="col-md-12">
+							<label>Select File for Generaet PDF:</label>
+							<input type="file" id="btnFileUpload" name="formFile">
+							<input type="submit" value="Convert to PDF" id="btnConvertToPdf" asp-page-handler="UploadPDFForView" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<label>Select File for OCR:</label>
+							<input type="file" id="btnFileUploadOCR" name="formFile">
+							<input type="submit" value="PDF to OCR" id="btnPdfToOCR" asp-page-handler="TestOCRMultiple" />
+						</div>
+					</div>
+				</form><hr />
+				<div class="row">
+					<div class="col-md-3">
+						<h4>Generated PDF</h4>
+						<table id="tblGeneratedPDFFiles" cellpadding="0" cellspacing="0">
+							<thead>
+								<tr>
+									<th style="width:120px">File Name</th>
+									<th style="width:80px"></th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var file in Model.GeneratedPDFFiles)
+								{
+									<tr>
+										<td>@file.Name</td>
+										<td><a class="lnkViewPDF" href="#" data-name="@file.Name">View PDF</a></td>
+										<td class="d-none folderType">@file.ContentType</td>
+									</tr>
+								}
+							</tbody>
+						</table>
+					</div>
+
+					<div class="col-md-4">
+						<h4>Edited PDF</h4>
+						<table id="tblEditedPDFFiles" cellpadding="0" cellspacing="0">
+							<thead>
+								<tr>
+									<th style="width:120px">File Name</th>
+									<th style="width:80px"></th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var file in Model.EditedPDFFiles)
+								{
+									<tr>
+										<td>@file.Name</td>
+										<td><a class="lnkViewPDF" href="#" data-name="@file.Name">View PDF</a></td>
+										<td class="d-none folderType">@file.ContentType</td>
+									</tr>
+								}
+							</tbody>
+						</table>
+
+
+					</div>
+
+					<div class="col-md-5">
+						<h4>Merged PDF</h4>
+						<table id="tblMergedPDFFiles" cellpadding="0" cellspacing="0">
+							<thead>
+								<tr>
+									<th style="width:120px">File Name</th>
+									<th style="width:80px"></th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var file in Model.MergedPDFFiles)
+								{
+									<tr>
+										<td>@file.Name</td>
+										<td><a class="lnkViewPDF" href="#" data-name="@file.Name">View PDF</a></td>
+										<td class="d-none folderType">@file.ContentType</td>
+									</tr>
+								}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@*
+<div class="row">
+	<div class="col-md-4">
+		<h4>Generated PDF</h4>
+		<table id="tblGeneratedPDFFiles" cellpadding="0" cellspacing="0">
+			<thead>
+				<tr>
+					<th style="width:120px">File Name</th>
+					<th style="width:80px"></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var file in Model.GeneratedPDFFiles)
+				{
+					<tr>
+						<td>@file.Name</td>
+						<td><a class="lnkViewPDF" href="#" data-name="@file.Name">View PDF</a></td>
+						<td class="d-none folderType">@file.ContentType</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+
+	<div class="col-md-4">
+		<h4>Edited PDF</h4>
+		<table id="tblEditedPDFFiles" cellpadding="0" cellspacing="0">
+			<thead>
+				<tr>
+					<th style="width:120px">File Name</th>
+					<th style="width:80px"></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var file in Model.EditedPDFFiles)
+				{
+					<tr>
+						<td>@file.Name</td>
+						<td><a class="lnkViewPDF" href="#" data-name="@file.Name">View PDF</a></td>
+						<td class="d-none folderType">@file.ContentType</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+
+	<div class="col-md-4">
+		<h4>Merged PDF</h4>
+		<table id="tblMergedPDFFiles" cellpadding="0" cellspacing="0">
+			<thead>
+				<tr>
+					<th style="width:120px">File Name</th>
+					<th style="width:80px"></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var file in Model.MergedPDFFiles)
+				{
+					<tr>
+						<td>@file.Name</td>
+						<td><a class="lnkViewPDF" href="#" data-name="@file.Name">View PDF</a></td>
+						<td class="d-none folderType">@file.ContentType</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>
+*@
+@*<hr />*@
+@*
+<div id="validationSuccess" class="validation-message alert alert-success alert-dismissible fade show d-none" role="alert">
+	<strong>Success!</strong> Your action was successful.
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		<span aria-hidden="true">&times;</span>
+	</button>
+</div>
+
+<div id="validationError" class="validation-message alert alert-danger alert-dismissible fade show d-none" role="alert">
+	<strong>Error!</strong> Something went wrong.
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+		<span aria-hidden="true">&times;</span>
+	</button>
+</div>*@
+<br />
+<div class="col-md-8 alert alert-success alert-dismissible fade show d-none" id="alertSuccess" role="alert">
+	<label id="lblSuccess"></label>
+	<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+
+<div class="col-md-8 alert alert-danger alert-dismissible fade show d-none" id="alertError" role="alert">
+	<label id="lblError"></label>
+	<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+
+
+<div class="container" id="dvPDFView">
+	<div class="row">
+		<div class="col-md-8">
+			<object id="divPDFObject" type="application/pdf">
+				<p>Test For Alt Text</p>
+			</object>
+		</div>
+		<div class="col-md-3 d-none" style="margin-left: 90px" id="dvCustomizePDF">
+			<form method="post" enctype="multipart/form-data">
+				<div class="form-group dvSelectPages">
+					<label for="selectPage">Select Pages in Existing PDF</label>
+					<input type="text" id="txtSelectPage" placeholder="e.g: 1-2, 2-5,6 .." name="selectPage" class="form-control">
+					<br />
+					<button type="button" class="btn btn-primary" id="btnSelectPage">Select Page</button>
+				</div>
+				<br />
+				<div class="form-group">
+					<label for="mergePdf">Select File for Merge PDF</label>
+					<input type="file" class="form-control" id="btnFileUploadToMerge" name="mergeFile">
+					<br />
+					<button type="button" class="btn btn-primary" id="btnMergePDF">Merge File</button>
+				</div>
+				<br />
+				<div class="form-group">
+					<label for="lblpageNumber">Page Number to Insert At:</label>
+					<input type="number" id="pageNumberToInsertAt" class="form-control" />
+				</div>
+				<br />
+				<div class="form-group">
+					<button type="button" class="btn btn-primary" id="btnMergePages">Merge Pages</button>
+				</div>
+				<div class="form-group">
+					<label for="lbltxtWatermark">Water Mark Text:</label>
+					<input type="text" id="txtWatermark" class="form-control" />
+					<label for="lblImgWatermark">Water Mark Image:</label>
+					<input type="file" class="form-control" id="btnUploadWatermarkImg" name="WatermarkFile">
+					<br />
+					<button type="button" class="btn btn-primary" id="btnAddWatermark">Add Watermark</button>
+					<button type="button" class="btn btn-primary" id="btnOCR">OCR</button>
+					<br />
+					<label></label>
+					<button type="button" class="btn btn-primary" id="btnClearView">Close</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<br />
+<br />
+
+
+<!-- ### *** OLD CODE *** ### -->
+@*<form method="post" enctype="multipart/form-data" asp-page-handler="UploadPDFZ">
+	@Html.AntiForgeryToken()
+	<div class="form-group">
+		<div class="row">
+			<div class="col-md-12">
+				<p><h4>Select one or more images:</h4></p>
+				<input type="file" name="files" id="btnFileUpload" multiple accept="">
+				<input type="button" id="btnConvertTOPDF" value="Convert to PDF" />
+			</div>
+		</div>
+	</div>
+</form>*@
+
+@*<br />
+<br />*@
+
+<!-- *** USING Objext Tag -->
+@*<iframe id="iframepdf" src="~/GeneratedPDF/TestPrint.pdf"></iframe>*@
+
+<!-- *** USING Objext Tag -->
+@*<object data="D:/Anil/Azure/111.pdf" id="PDFObjectId" type="application/pdf" width="800" height="500">
+	alt :
+	<a href="data/test.pdf">test.pdf</a>
+</object>*@
+
+
+<!-- *** OLD CODE END ### -->
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script type="text/javascript">
+
+	$(document).ready(function () {
+
+		//$("#dvSelectPages").show();
+
+	});
+
+	$("#btnClearView").click(function () {
+		$("#divPDFObject").attr('data', '');
+		$('#btnClearView').addClass('d-none');
+		$('#dvCustomizePDF').addClass('d-none');
+	});
+
+	$(".lnkViewPDF").click(function (e) {
+		e.preventDefault();
+		var fileName = $(this).data("name");
+		var folderType = $(this).closest('tr').find('.folderType').text();
+
+		if (fileName) {
+			$.ajax({
+				type: "POST",
+				url: "/PDFView?handler=ViewPDF",
+				beforeSend: function (xhr) {
+					xhr.setRequestHeader("XSRF-TOKEN",
+						$('input:hidden[name="__RequestVerificationToken"]').val());
+				},
+				//contentType: "application/json; charset=utf-8",
+				//data: JSON.stringify({ fileName }),
+				data: { fileName: fileName, folderType: folderType },
+				//dataType: "json",
+				success: function (response) {
+					var message = JSON.parse(response.message);
+
+					if (response.success) {
+						var deserializedString = JSON.parse(response.data);
+						$("#divPDFObject").empty();
+						$('#divPDFObject').attr('data', deserializedString);
+						$('#btnClearView').removeClass('d-none');
+						$('#dvCustomizePDF').removeClass('d-none');
+
+					} else {
+						$('#btnClearView').addClass('d-none');
+						$('#dvCustomizePDF').addClass('d-none');
+						showErrorMessage(message);
+					}
+				},
+				error: function (xhr, status, error) {
+					console.log("AJAX Error: " + error);
+				}
+			});
+		}
+		else {
+			console.error('No file selected.');
+		}
+	});
+
+	$("#btnSelectPage").click(function () {
+
+		var fileName = $("#divPDFObject").attr('data');
+		var pageRange = $("#txtSelectPage").val();
+
+		if (fileName) {
+			$.ajax({
+				type: "POST",
+				url: "/PDFView?handler=CustomizePDF",
+				beforeSend: function (xhr) {
+					xhr.setRequestHeader("XSRF-TOKEN",
+						$('input:hidden[name="__RequestVerificationToken"]').val());
+				},
+				data: { fileName: fileName, pageRange: pageRange },
+				success: function (response) {
+					var message = JSON.parse(response.message);
+
+					if (response.success) {
+						var deserializedString = JSON.parse(response.data);
+						$("#divPDFObject").empty();
+						$('#txtSelectPage').val('');
+						$('#divPDFObject').attr('data', deserializedString);
+						location.reload();
+
+					} else {
+						showErrorMessage(message);
+					}
+				},
+				error: function (xhr, status, error) {
+					console.log("AJAX Error: " + error);
+				}
+			});
+		}
+		else {
+			console.error('No file selected.');
+		}
+	});
+
+	$("#btnMergePDF").click(function (e) {
+
+		var fileName = $("#divPDFObject").attr('data');
+		var fileToMerge = $("#btnFileUploadToMerge").val().split('\\').pop();
+
+		$.ajax({
+			type: "POST",
+			url: "/PDFView?handler=MergePDF",
+			beforeSend: function (xhr) {
+				xhr.setRequestHeader("XSRF-TOKEN",
+					$('input:hidden[name="__RequestVerificationToken"]').val());
+			},
+			data: { existingFile: fileName, fileToMerge: fileToMerge },
+			success: function (response) {
+				var message = JSON.parse(response.message);
+
+				if (response.success) {
+					var deserializedString = JSON.parse(response.data);
+					$("#divPDFObject").empty();
+					$('#divPDFObject').attr('data', deserializedString);
+					showSuccessMessage(message);
+
+				} else {
+					showErrorMessage(message);
+
+				}
+			},
+			error: function (xhr, status, error) {
+				console.log("AJAX Error: " + error);
+			}
+		});
+	});
+
+	$("#btnMergePages").click(function (e) {
+		var fileName = $("#divPDFObject").attr('data');
+		var newFile = $("#btnFileUploadToMerge").val().split('\\').pop();
+		var pageNumber = parseInt($("#pageNumberToInsertAt").val());
+
+		$.ajax({
+			type: "POST",
+			url: "/PDFView?handler=MergeAtPageNumber",
+			beforeSend: function (xhr) {
+				xhr.setRequestHeader("XSRF-TOKEN",
+					$('input:hidden[name="__RequestVerificationToken"]').val());
+			},
+			data: { existingFile: fileName, newPdfFile: newFile, pageNumber: pageNumber },
+			success: function (response) {
+				var message = JSON.parse(response.message);
+
+				if (response.success) {
+					var deserializedString = JSON.parse(response.data);
+					$("#divPDFObject").empty();
+					$('#divPDFObject').attr('data', deserializedString);
+					showSuccessMessage(message);
+
+				} else {
+					showErrorMessage(message);
+				}
+			},
+			error: function (xhr, status, error) {
+				console.log("AJAX Error: " + error);
+			}
+		});
+	});
+
+	$("#btnAddWatermark").click(function (e) {
+		var fileName = $("#divPDFObject").attr('data');
+		var watermarkimg = $("#btnUploadWatermarkImg").val().split('\\').pop();
+		var watermartext = $.trim($("#txtWatermark").val());
+
+		$.ajax({
+			type: "POST",
+			url: "/PDFView?handler=AddWatermark",
+			beforeSend: function (xhr) {
+				xhr.setRequestHeader("XSRF-TOKEN",
+					$('input:hidden[name="__RequestVerificationToken"]').val());
+			},
+			data: { existingFile: fileName, watermarText: watermartext, watermarkImg: watermarkimg },
+			success: function (response) {
+
+				var message = JSON.parse(response.message);
+
+				if (response.success) {
+					var deserializedString = JSON.parse(response.data);
+					$("#divPDFObject").empty();
+					$('#divPDFObject').attr('data', deserializedString);
+					showSuccessMessage(message);
+
+				} else {
+					showErrorMessage(message);
+				}
+			},
+			error: function (xhr, status, error) {
+				console.log("AJAX Error: " + error);
+			}
+		});
+	});
+
+	$("#btnOCR").click(function (e) {
+		var fileName = $("#divPDFObject").attr('data');
+		debugger;
+		$.ajax({
+			type: "POST",
+			url: "/PDFView?handler=PerformOCR",
+			beforeSend: function (xhr) {
+				xhr.setRequestHeader("XSRF-TOKEN",
+					$('input:hidden[name="__RequestVerificationToken"]').val());
+			},
+			data: { fileName: fileName },
+			success: function (response) {
+				debugger;
+				var message = JSON.parse(response.message);
+
+				if (response.success) {
+					// var base64Strings = JSON.parse(response.data);
+					// $("#divPDFObject").empty();
+					// var concatenatedBase64String = base64Strings.join('');
+					// var pdfDataUri = 'data:application/pdf;base64,' + concatenatedBase64String;
+
+					// // Set the data attribute of the <object> tag to the data URI
+					// $('#divPDFObject').attr('data', pdfDataUri);
+
+
+					// showSuccessMessage(message);
+
+
+					//var base64Strings = JSON.parse(response.data);
+					$("#divPDFObject").empty();
+						
+					// let pdfData = "";
+					// response.data.forEach(function (base64String) {
+					// 	pdfData += base64String;
+					// });
+					//var concatenatedBase64String = base64Strings.join('');
+
+					//var pdfDataUri = 'data:application/pdf;base64,' + concatenatedBase64String;
+
+
+					// var pdfData = '';
+					// var byteList = response.data;
+					// for (var i = 0; i < byteList.length; i++) {
+					// 	var base64String = byteList[i];
+					// 	pdfData += base64String;
+					// }
+
+					//var pdfData = response.data.join('');
+
+					// ### var pdfDataUri = 'data:application/pdf;base64,' + pdfData
+
+					// ## $('#divPDFObject').attr('data', pdfDataUri);
+
+
+					// ** 1
+					var base64String = response.data;
+					var pdfDataUri = 'data:application/pdf;base64,' + base64String;
+					$('#divPDFObject').attr('data', pdfDataUri);
+					// ** 1 **
+
+
+					//-- ****** 2
+					// var base64Strings = JSON.parse(response.data);
+					// $("#divPDFObject").empty();
+					// var pdfDataUri = 'data:application/pdf;base64,' + base64Strings;
+					// $('#divPDFObject').attr('data', pdfDataUri);
+					// showSuccessMessage(message);
+					// -- ******** 2 **
+
+
+				} else {
+					showErrorMessage(message);
+				}
+			},
+			error: function (xhr, status, error) {
+				console.log("AJAX Error: " + error);
+			}
+		});
+	});
+
+	function showSuccessMessage(message) {
+		$('#alertSuccess').removeClass('d-none');
+		$("#lblSuccess").append('<strong>' + message + '</strong>');
+	}
+
+	function showErrorMessage(message) {
+		$('#alertError').removeClass('d-none');
+		$("#lblError").append('<strong>' + message + '</strong>');
+	}
+
+
+	////// --- *** OLD CODE *** ////////////
+
+	//$('#btnConvertTOPDF').on('click', function () {
+	//	debugger;
+	//	var fileInput = document.getElementById('btnFileUpload');
+	//	var file = fileInput.files[0];
+
+	//	if (file) {
+	//		var formData = new FormData();
+	//		formData.append('file', file);
+	//		console.log(formData);
+
+	//		// Make an AJAX call to upload the file and fetch the PDF content
+	//		$.ajax({
+	//			type: 'POST',
+	//			// url: 'PDFView?handler=PDFUpload',
+	//			url: '/PDFView?handler=PDFUpload',
+	//			beforeSend: function (xhr) {
+	//				xhr.setRequestHeader("XSRF-TOKEN",
+	//					$('input:hidden[name="__RequestVerificationToken"]').val());
+	//			},
+	//			data: formData,
+	//			processData: false,
+	//			contentType: false,
+	//			//enctype: 'multipart/form-data',
+	//			success: function (data) {
+
+	//				// Convert the received binary data to a base64 string
+	//				var base64Data = btoa(String.fromCharCode.apply(null, new Uint8Array(data)));
+
+	//				$('#PDFObjectId').show();
+	//				// Set the data attribute of the object tag
+	//				$('#PDFObjectId').attr('data', 'data:application/pdf;base64,' + base64Data);
+	//			},
+	//			error: function (xhr, status, error) {
+	//				console.error(xhr.responseText); // Log any response from the server
+	//			}
+	//		});
+	//	} else {
+	//		console.error('No file selected.');
+	//	}
+	//});
+
+	////// --- *** OLD CODE  END *** ////////////
+
+</script>

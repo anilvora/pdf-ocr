@@ -1,0 +1,159 @@
+@page
+@model Practice.WebApp.Pages.PrivacyModel
+@{
+	ViewData["Title"] = "Privacy";
+}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- Internal Analytics -->
+    <script nonce="GQnMOFyiIa1unmEx3Sdvlx/qxnBw/8EToYEnHrahbEa4b53q">
+        var version = "v&#x3D;1.30.1_IAMP-201_hotfixv3".split(';')[1],
+            analytics = {
+                config: {
+                    env: "production",
+                    propertyVersion: version,
+                    prefixLabel: window.location.search.indexOf('cta=join-team') !== -1 ? 'team_invite_' : '',
+                    url: "https://analytics.getpostman.com/event"
+                },
+                eventQueue: [],
+                recordEvent: function (event) {
+                    event.timestamp = new Date();
+                    this.eventQueue.push(event);
+                }
+            };
+    </script>
+    <script nonce="GQnMOFyiIa1unmEx3Sdvlx/qxnBw/8EToYEnHrahbEa4b53q" src="js/analytics.min.js" async defer></script>
+    <!--End Internal Analytics -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Postman - Sign In</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css2?family&#x3D;Inter:wght@400;600&amp;display&#x3D;swap">
+
+
+    <link href="/css/style.min.css" rel="stylesheet" />
+</head>
+<body class="body-styles">
+    <div class="container">
+        <div class="main">
+            <div class="flex justify-center">
+                <img src="~/images/logo-postman.png" />
+            </div>
+            <div class="card wd-4">
+                <h1 class="heading-1 text-center spacing-bottom-xl">Sign in to Postman</h1>
+
+                <div class="banner banner-critical spacing-top-xl pm-error hidden" id="pm-password-disabled-error-banner">
+                    <div class="pm-alert-content">
+                        <h3 class="heading-4">Reset your password</h3>
+                        <p class="spacing-top-s">To ensure your account is secure, we have sent you an email to reset your password. Once updated, try signing in again.</p>
+                    </div>
+                </div>
+                <div class="banner banner-critical spacing-top-xl pm-error hidden" id="pm-password-scrambled-error-banner">
+                    <div class="pm-alert-content">
+                        <h3 class="heading-4">Reset your password</h3>
+                        <p class="spacing-top-s">Please <a href="/trouble-signing-in?continue=https%3A%2F%2Fgo.postman.co%2Fhome" title="reset your password" target="_self" class="pmt_sign-up-instead-lnk">reset your password</a> to ensure your account is secure. Once updated, try signing in again.</p>
+                    </div>
+                </div>
+
+                <div id="notification-div" class="banner banner-critical spacing-top-xl notify-failure notification-container">
+                    <p id="notification-message"></p>
+                </div>
+
+                <form id="sign-in-form" class="spacing-top-xl">
+                    <div class="input-group pm-form-group">
+                        <label for="username" class="input-label">
+                            <h6 class="heading-6">Email or username</h6>
+                        </label>
+                        <input type="text" class="input-field pm-form-control" name="username" id="username" autofocus autocomplete="off" autocapitalize="off" spellcheck="true" value="">
+                        <span id="input-error-username" class="input-validation-error"></span>
+                    </div>
+                    <div class="input-group pm-form-group">
+                        <label for="password" class="input-label">
+                            <h6 class="heading-6">Password</h6>
+                        </label>
+                        <input type="password" class="input-field pm-form-control" name="password" id="password" autocapitalize="off" spellcheck="true">
+                        <span id="input-error-password" class="input-validation-error"></span>
+                    </div>
+                    <div class="input-group pm-form-group">
+                        <div class="flex space-between">
+                            <input type="checkbox" class="input-checkbox" id="remember-me-checkbox" checked />
+                            <label for="remember-me-checkbox">Stay signed in</label>
+                            <a class="trouble-signing-in-link"
+                               href="/trouble-signing-in?continue=https%3A%2F%2Fgo.postman.co%2Fhome">Forgot password?</a>
+                        </div>
+                        <div class="banner banner-warning do-not-remember-message" id="do-not-remember-message">
+                            <span>You will be logged out after 30 minutes of inactivity.</span>
+                        </div>
+                    </div>
+                    <div class="input-group pm-form-group">
+                        <button type="button" class="btn btn-primary sign-in-btn" id="sign-in-btn">
+                            Sign In
+                        </button>
+                    </div>
+
+                    <input type="hidden" name="csrfToken" value="jwZFCY60Rc7GPAWV3esiLld3IaelUxvx9Iwpw=" />
+                </form>
+
+                <p class="text-center text-subdued spacing-top-xl spacing-bottom-xl">or</p>
+
+                <a href="/google/oauth2" class="btn btn-secondary google-sign-in">
+                    <div class="google-logo">
+                        <img class="btn-logo" src="https://assets.getpostman.com/common-share/google-logo-icon-sign-in.svg" width="16px" height="16px">
+                    </div>
+                    <div class="pmt_sign-in-w-google-btn google-text">Sign In with Google</div>
+                </a>
+
+                <a id="enterprise-sign-in-link" href="/enterprise/login?continue=https%3A%2F%2Fgo.postman.co%2Fhome" class="btn btn-secondary spacing-top-l sso-login-btn">
+                    Sign In with SSO
+                </a>
+
+            </div>
+            <div class="text-center spacing-top-l">
+                <strong><a href="/signup?continue=https%3A%2F%2Fgo.postman.co%2Fhome" title="Create free account" target="_self" class="pmt_sign-up-instead-lnk" id="sign-up-link">Create free account</a></strong>
+            </div>
+
+        </div>
+        <footer id="footer" class="footer">
+            <div class="flex justify-center">
+                <ul class="language-list" id="langsList"></ul>
+            </div>
+            <script nonce="GQnMOFyiIa1unmEx3Sdvlx/qxnBw/8EToYEnHrahbEa4b53q">
+                const i18nParam = 'lang',
+                    href = new URL(window.location.href),
+                    params = new URLSearchParams(href.search);
+
+                function generateLanguageList(langsList, activeLang) {
+                    const langItems = langsList.map((langObj) => {
+                        const langCode = Object.keys(langObj)[0];
+                        const langName = langObj[langCode];
+                        const isActive = langCode === activeLang;
+                        const title = isActive ? `Current language: ${langName}` : `Use Postman in ${langName}`;
+                        params.set(i18nParam, langCode);
+                        href.search = params.toString();
+
+                        return `<li  lang="${langCode}" title="${title}" ${isActive ? ' class="active"' : ''}><a  href="${href}">${langName}</a></li>`;
+                    });
+
+                    return langItems.join('');
+                }
+
+                const langsList = [
+                    { 'en-US': "English" },
+                    { 'ja': "日本語" }
+                ];
+
+                const activeLang = 'en-US';
+                document.querySelector('#langsList').innerHTML = generateLanguageList(langsList, activeLang);
+
+            </script>
+            <span translate="no" class="text-subdued">©2024 Postman, Inc. All rights reserved.</span>
+            <i class="separator">&middot;</i>
+            <a class="link-muted" href="https://www.postman.com/legal/eula" target="_blank">Terms of use</a>
+            <i class="separator">&middot;</i>
+            <a class="link-muted" href="https://www.postman.com/legal/privacy-policy" target="_blank">Privacy policy</a>
+        </footer>
+    </div>
+</body>
+</html>

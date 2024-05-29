@@ -1,0 +1,166 @@
+﻿@page
+@model Practice.WebApp.Pages.PDFCustomeModel
+@{
+}
+
+<style type="text/css">
+	#pdf_container {
+		background: #ccc;
+		text-align: center;
+		display: none;
+		padding: 5px;
+		height: 820px;
+		overflow: auto;
+	}
+</style>
+
+@*<form method="post" enctype="multipart/form-data" asp-page-handler="UploadPDF">
+	<div class="form-group">
+		<div class="row">
+			<div class="col-md-12">
+				<p><h4>Select one or more images:</h4></p>
+				<input type="file" name="files" id="btnFileUpload" multiple accept="">
+				<input type="button" id="btnConvertTOPDF" value="Convert to PDF" />
+			</div>
+		</div>
+	</div>
+</form>*@
+@Html.Raw(TempData["Embed"])
+
+
+
+
+<input type="button" id="btnPreview" value="Preview PDF Document" onclick="LoadPdfFromUrlZ('@Url.Content("~/GeneratedPDF/TestPrint.pdf")')" />
+<input type="button" id="btnPreviewZ" value="PDF URL" onclick="LoadPdfFromUrl('@Url.Content("~/GeneratedPDF/TestPrint.pdf")')" />
+
+<div id="pdf_container" class="scroll" tabindex="0"></div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js"></script>
+
+
+<script type="text/javascript">
+	$(document).ready(function () {
+
+	});
+
+	var pdfjsLib = window['pdfjs-dist/build/pdf'];
+	pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.worker.min.js';
+	var pdfDoc = null;
+	var scale = 1; //Set Scale for zooming PDF.
+	var resolution = 1; //Set Resolution to Adjust PDF clarity.
+
+	function LoadPdfFromUrlZ(url) {
+		debugger;
+		//Read PDF from URL.
+		pdfjsLib.getDocument(url).promise.then(function (pdfDoc_) {
+			pdfDoc = pdfDoc_;
+
+			//Reference the Container DIV.
+			var pdf_container = document.getElementById("pdf_container");
+			pdf_container.style.display = "block";
+
+			//Loop and render all pages.
+			for (var i = 1; i <= pdfDoc.numPages; i++) {
+				RenderPageZ(pdf_container, i);
+			}
+		});
+	};
+
+	function RenderPageZ(pdf_container, num) {
+		$('#pdf_container').empty();
+		pdfDoc.getPage(num).then(function (page) {
+			//Create Canvas element and append to the Container DIV.
+			var canvas = document.createElement('canvas');
+			canvas.id = 'pdf-' + num;
+			ctx = canvas.getContext('2d');
+			pdf_container.appendChild(canvas);
+
+			//Create and add empty DIV to add SPACE between pages.
+			var spacer = document.createElement("div");
+			spacer.style.height = "20px";
+			pdf_container.appendChild(spacer);
+
+			//Set the Canvas dimensions using ViewPort and Scale.
+			var viewport = page.getViewport({ scale: scale });
+			canvas.height = resolution * viewport.height;
+			canvas.width = resolution * viewport.width;
+
+			//Render the PDF page.
+			var renderContext = {
+				canvasContext: ctx,
+				viewport: viewport,
+				transform: [resolution, 0, 0, resolution, 0, 0]
+			};
+
+			page.render(renderContext);
+		});
+	};
+
+
+	function LoadPdfFromUrl(url) {
+		debugger;
+		// Read PDF from URL.
+		fetch('@Url.Page("PDFCustome", "ViewPdfURL")?url=' + encodeURIComponent(url))
+			.then(response => response.blob())
+			.then(blob => {
+				var file = new File([blob], "pdf");
+				var fileURL = URL.createObjectURL(file);
+
+				// Call the JavaScript function to render the PDF
+				RenderPdf(fileURL);
+			});
+	}
+
+	function RenderPdf(pdfUrl) {
+		pdfjsLib.getDocument(pdfUrl).promise.then(function (pdfDoc_) {
+			pdfDoc = pdfDoc_;
+
+			// Reference the Container DIV.
+			var pdf_container = document.getElementById("pdf_container");
+			pdf_container.style.display = "block";
+
+			// Loop and render all pages.
+			for (var i = 1; i <= pdfDoc.numPages; i++) {
+				RenderPage(pdf_container, i);
+			}
+		});
+	}
+
+	function RenderPage(pdf_container, num) {
+		$('#pdf_container').empty();
+		pdfDoc.getPage(num).then(function (page) {
+			// Create Canvas element and append to the Container DIV.
+			var canvas = document.createElement('canvas');
+			canvas.id = 'pdf-' + num;
+			ctx = canvas.getContext('2d');
+			pdf_container.appendChild(canvas);
+
+			// Create and add empty DIV to add SPACE between pages.
+			var spacer = document.createElement("div");
+			spacer.style.height = "20px";
+			pdf_container.appendChild(spacer);
+
+			// Set the Canvas dimensions using ViewPort and Scale.
+			var viewport = page.getViewport({ scale: scale });
+			canvas.height = resolution * viewport.height;
+			canvas.width = resolution * viewport.width;
+
+			// Render the PDF page.
+			var renderContext = {
+				canvasContext: ctx,
+				viewport: viewport,
+				transform: [resolution, 0, 0, resolution, 0, 0]
+			};
+
+			page.render(renderContext);
+		});
+	}
+
+	// Call the function to load the PDF from a URL
+
+</script>

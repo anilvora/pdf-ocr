@@ -1,0 +1,88 @@
+﻿@page
+@model IndexModel
+@{
+	ViewData["Title"] = "Home page";
+}
+<p>@Model.Header</p>
+
+<form method="post" enctype="multipart/form-data">
+	<span>Select File:</span>
+	<input type="file" name="postedFiles" multiple />
+	<input type="submit" value="Upload" asp-page-handler="Upload" />
+	<br />
+	<span style="color:green">@Html.Raw(Model.TestMessage)</span>
+	<br /><br />
+	<input type="submit" value="GetImages" asp-page-handler="GetImages" />
+	<br /><br />
+
+	<div class="row">
+		@if (Model.ImageNames is not null && Model.ImageNames.Count > 0)
+		{
+			@foreach (var imageName in Model.ImageNames)
+			{
+				<div class="col-md-3">
+					<div class="card" style="width: 18rem;">
+						<img class="card-img-top" src="~/Uploads/@imageName" alt="Card image cap">
+						<div class="card-body">
+							<button type="button" class="btn btn-outline-info" id="btnDeleteImg" data-imgname="@imageName">
+								Delete
+							</button>
+						</div>
+					</div>
+				</div>
+			}
+		}
+	</div>
+	<iframe src="https://free.timeanddate.com/clock/i9b8a3yl/n423/szw110/szh110/hoc000/hbw2/hfceee/cf100/hncccc/fdi76/mqc000/mql10/mqw4/mqd98/mhc000/mhl10/mhw4/mhd98/mmc000/mml10/mmw1/mmd98" frameborder="0" width="110" height="110"></iframe>
+
+</form>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<!--- CryptoJS AES Libraries --->
+<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/components/enc-base64-min.js"></script>
+
+
+<script type="text/javascript">
+	$(document).ready(function () { });
+
+	debugger;
+	var text = "CfDJ8PpFEQGW5RpGlj-5ISBjNUrSupqPbrHcmX_g9-FusTSbU0pS__PS607jFZryvo_5rNAGqKW6Z5OyZP03Pcdgu0NsOZYYo6EGjiA8p9w5RhmJG3_aW1KIubaDJENDkqokgw";
+	var key = CryptoJS.enc.Base64.parse("#base64Key#");
+	var iv = CryptoJS.enc.Base64.parse("#base64IV#");
+
+	console.log("Initial String:: " + text);
+
+	var encrypted = CryptoJS.AES.encrypt(text, key, { iv: iv });
+	console.log("Encrypted String:: " + encrypted.toString());
+
+	var decrypted = CryptoJS.AES.decrypt(encrypted, key, { iv: iv });
+	console.log("Decrypted String:: " + decrypted.toString(CryptoJS.enc.Utf8));
+
+
+
+	$('#btnDeleteImg').on('click', function () {
+		var imageName = $(this).data('imgname');
+		DeleteImg(imageName);
+	});
+
+	function DeleteImg(imgName) {
+		if ($.trim(imgName) !== '') {
+			$.ajax({
+				type: "POST",
+				//url: "/Index?handler=DeleteImage",
+				url: "https://localhost:7054/?handler=DeleteImage",
+				data: { fileName: imgName.toString() },
+				success: function (data) {
+					window.alert(data.message);
+				},
+				error: function (error) {
+					window.alert("Error deleting image", error);
+				}
+			});
+		}
+	}
+
+
+</script>

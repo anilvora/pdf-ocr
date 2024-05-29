@@ -1,0 +1,1113 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Practice.WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Practice.WebApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\EditedPDF\\Edited_PDF_20240213_142035_132.pdf",
+      "PackagePath": "staticwebassets\\EditedPDF\\Edited_PDF_20240213_142035_132.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\EditedPDF\\Edited_PDF_20240213_155355_831.pdf",
+      "PackagePath": "staticwebassets\\EditedPDF\\Edited_PDF_20240213_155355_831.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\EditedPDF\\Edited_TestPrint.pdf",
+      "PackagePath": "staticwebassets\\EditedPDF\\Edited_TestPrint.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\AMC_tender.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\AMC_tender.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\AMC_tenderX.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\AMC_tenderX.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\CC_Bill.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\CC_Bill.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\OCR1.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\OCR1.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\OCR2.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\OCR2.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\PDF_20240213_142035.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\PDF_20240213_142035.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\PDF_20240213_155355.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\PDF_20240213_155355.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\PDF_20240219_114259.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\PDF_20240219_114259.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\PDF_20240301_180256.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\PDF_20240301_180256.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\PDF_20240312_121558.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\PDF_20240312_121558.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\SimpleText.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\SimpleText.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\TestOCR.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\TestOCR.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\TestPrint.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\TestPrint.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\GeneratedPDF\\TestPrintWaterMark.pdf",
+      "PackagePath": "staticwebassets\\GeneratedPDF\\TestPrintWaterMark.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\MergedPDF\\MergedAtPageNo_Test.pdf",
+      "PackagePath": "staticwebassets\\MergedPDF\\MergedAtPageNo_Test.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\MergedPDF\\MergedPages_Edited_PDF_20240213_142035_132_beautifulsky.pdf",
+      "PackagePath": "staticwebassets\\MergedPDF\\MergedPages_Edited_PDF_20240213_142035_132_beautifulsky.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\MergedPDF\\MergedPages_PDF_20240213_142035_Nature4.pdf",
+      "PackagePath": "staticwebassets\\MergedPDF\\MergedPages_PDF_20240213_142035_Nature4.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\MergedPDF\\Merged_PDF_20240213_142035_132_Nature.pdf",
+      "PackagePath": "staticwebassets\\MergedPDF\\Merged_PDF_20240213_142035_132_Nature.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\MergedPDF\\TestMergePDF.pdf",
+      "PackagePath": "staticwebassets\\MergedPDF\\TestMergePDF.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\.gitmodules",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\.gitmodules"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\LICENSE",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\README.md",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\README.md"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\afr.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\afr.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\amh.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\amh.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ara.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ara.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\asm.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\asm.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\aze.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\aze.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\aze_cyrl.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\aze_cyrl.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\bel.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\bel.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ben.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ben.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\bod.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\bod.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\bos.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\bos.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\bre.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\bre.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\bul.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\bul.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\cat.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\cat.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ceb.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ceb.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ces.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ces.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\chi_sim.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\chi_sim.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\chi_sim_vert.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\chi_sim_vert.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\chi_tra.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\chi_tra.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\chi_tra_vert.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\chi_tra_vert.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\chr.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\chr.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\configs",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\cos.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\cos.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\cym.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\cym.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\dan.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\dan.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\dan_frak.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\dan_frak.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\deu.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\deu.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\deu_frak.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\deu_frak.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\div.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\div.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\dzo.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\dzo.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ell.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ell.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\eng.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\eng.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\enm.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\enm.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\epo.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\epo.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\equ.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\equ.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\est.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\est.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\eus.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\eus.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\fao.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\fao.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\fas.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\fas.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\fil.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\fil.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\fin.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\fin.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\fra.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\fra.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\frk.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\frk.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\frm.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\frm.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\fry.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\fry.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\gla.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\gla.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\gle.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\gle.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\glg.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\glg.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\grc.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\grc.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\guj.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\guj.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\hat.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\hat.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\heb.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\heb.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\hin.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\hin.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\hrv.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\hrv.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\hun.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\hun.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\hye.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\hye.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\iku.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\iku.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ind.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ind.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\isl.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\isl.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ita.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ita.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ita_old.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ita_old.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\jav.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\jav.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\jpn.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\jpn.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\jpn_vert.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\jpn_vert.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\kan.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\kan.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\kat.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\kat.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\kat_old.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\kat_old.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\kaz.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\kaz.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\khm.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\khm.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\kir.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\kir.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\kmr.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\kmr.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\kor.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\kor.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\kor_vert.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\kor_vert.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\lao.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\lao.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\lat.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\lat.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\lav.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\lav.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\lit.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\lit.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ltz.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ltz.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\mal.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\mal.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\mar.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\mar.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\mkd.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\mkd.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\mlt.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\mlt.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\mon.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\mon.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\mri.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\mri.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\msa.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\msa.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\mya.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\mya.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\nep.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\nep.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\nld.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\nld.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\nor.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\nor.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\oci.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\oci.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ori.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ori.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\osd.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\osd.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\pan.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\pan.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\pdf.ttf",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\pdf.ttf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\pol.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\pol.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\por.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\por.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\pus.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\pus.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\que.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\que.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ron.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ron.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\rus.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\rus.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\san.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\san.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Arabic.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Arabic.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Armenian.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Armenian.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Bengali.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Bengali.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Canadian_Aboriginal.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Canadian_Aboriginal.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Cherokee.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Cherokee.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Cyrillic.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Cyrillic.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Devanagari.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Devanagari.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Ethiopic.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Ethiopic.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Fraktur.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Fraktur.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Georgian.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Georgian.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Greek.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Greek.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Gujarati.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Gujarati.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Gurmukhi.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Gurmukhi.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\HanS.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\HanS.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\HanS_vert.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\HanS_vert.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\HanT.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\HanT.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\HanT_vert.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\HanT_vert.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Hangul.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Hangul.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Hangul_vert.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Hangul_vert.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Hebrew.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Hebrew.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Japanese.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Japanese.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Japanese_vert.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Japanese_vert.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Kannada.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Kannada.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Khmer.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Khmer.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Lao.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Lao.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Latin.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Latin.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Malayalam.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Malayalam.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Myanmar.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Myanmar.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Oriya.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Oriya.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Sinhala.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Sinhala.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Syriac.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Syriac.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Tamil.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Tamil.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Telugu.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Telugu.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Thaana.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Thaana.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Thai.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Thai.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Tibetan.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Tibetan.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\script\\Vietnamese.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\script\\Vietnamese.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\sin.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\sin.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\slk.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\slk.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\slk_frak.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\slk_frak.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\slv.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\slv.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\snd.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\snd.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\spa.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\spa.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\spa_old.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\spa_old.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\sqi.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\sqi.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\srp.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\srp.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\srp_latn.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\srp_latn.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\sun.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\sun.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\swa.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\swa.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\swe.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\swe.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\syr.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\syr.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\tam.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\tam.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\tat.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\tat.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\tel.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\tel.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\tgk.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\tgk.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\tgl.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\tgl.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\tha.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\tha.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\tir.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\tir.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ton.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ton.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\tur.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\tur.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\uig.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\uig.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\ukr.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\ukr.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\urd.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\urd.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\uzb.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\uzb.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\uzb_cyrl.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\uzb_cyrl.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\vie.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\vie.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\yid.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\yid.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Tesseract\\tessdata\\yor.traineddata",
+      "PackagePath": "staticwebassets\\Tesseract\\tessdata\\yor.traineddata"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\1.png",
+      "PackagePath": "staticwebassets\\Uploads\\1.png"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\2.png",
+      "PackagePath": "staticwebassets\\Uploads\\2.png"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\3.png",
+      "PackagePath": "staticwebassets\\Uploads\\3.png"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\4.png",
+      "PackagePath": "staticwebassets\\Uploads\\4.png"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\5.png",
+      "PackagePath": "staticwebassets\\Uploads\\5.png"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\7Logo.png",
+      "PackagePath": "staticwebassets\\Uploads\\7Logo.png"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\AMC_logo.png",
+      "PackagePath": "staticwebassets\\Uploads\\AMC_logo.png"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\AMC_tender.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\AMC_tender.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\CCBill.png",
+      "PackagePath": "staticwebassets\\Uploads\\CCBill.png"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\Desktop_Wallpaper.png",
+      "PackagePath": "staticwebassets\\Uploads\\Desktop_Wallpaper.png"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\Nature.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Nature.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\Nature4.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\Nature4.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\PDF_20240301_155555.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\PDF_20240301_155555.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\TestPDF3Page.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\TestPDF3Page.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\TestPDF8Page.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\TestPDF8Page.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\TestPrint.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\TestPrint.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\Uploads\\beautifulsky.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\beautifulsky.pdf"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\images\\logo-postman.png",
+      "PackagePath": "staticwebassets\\images\\logo-postman.png"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Work\\Demo Project\\Practice.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Practice.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Practice.WebApp.props",
+      "PackagePath": "build\\Practice.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Practice.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\Practice.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Practice.WebApp.props",
+      "PackagePath": "buildTransitive\\Practice.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
